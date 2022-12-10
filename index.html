@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+				<title>Hearts for u</title>
+				
+				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				
+				
+				<style>
+								
+								@media only screen and (orientation:portrait){
+												body {
+											height: 100vw;
+											transform: rotate(90deg);
+												}
+								}
+								
+	    body{
+	    				
+	    				margin: 0;
+	    				padding: 0;
+	    				overflow: hidden;
+	    				background: black;
+	        }
+       			
+       			section{
+       							
+       							position: absolute;
+       							width: 100%;
+       							height: 100%;
+       	background: url("Heat_Waves.mp3") ;
+       			}
+       			
+       			
+       			.set{
+       							
+       							position: absolute;
+       							width: 100%;
+       							height: 100%;
+       							bottom: 0;
+       							left: 0;
+       			}
+       			
+       			.set div{
+       							position: absolute;
+       							display: block;
+       							bottom: 0;
+       							left: 0;
+       							filter: blur(1px);
+       			}
+       			
+       			.set div:nth-child(1)
+       			{
+       							left: 52%;
+       							top: 10%;
+      animation: animate1 infinite 1.5s;
+      animation-delay: -1s;
+       			}
+       			
+       			.set div:nth-child(2)
+       			{
+       							left: 15%;
+       							bottom: 10%;
+     animation: animate2 infinite 1.5s;
+     animation-delay: -5s;
+       			}
+       			
+       			.set div:nth-child(3)
+       			{
+       							left: 24%;
+       							top: 31%;
+     animation: animate3 infinite 1.5s;
+     animation-delay: -7s;
+       			}
+       			.set div:nth-child(4)
+       			{
+       							left: 43%;
+       							bottom: 33%;
+      animation: animate4 infinite 1.5s;
+      animation-delay: -2s;
+       			}
+       			.set div:nth-child(5)
+       			{
+       							left: 87%;
+       							top: 30%;
+      animation: animate5 infinite 1.5s;
+      animation-delay: -6s;
+       			}
+       			.set div:nth-child(6)
+       			{
+       							left: 80%;
+       							bottom: 10%;
+       	animation: animate6 infinite 1.5s;
+       	animation-delay: -9s;
+       			}
+       			
+       			.set div:nth-child(7)
+       			{
+       							left: 118%;
+       							top: 20%;
+       animation: animate7 infinite 1.5s;
+       animation-delay: -5s;
+       			}
+       			
+       			.set div:nth-child(8)
+       			{
+       							left: 126%;
+       							bottom: 27%;
+      animation: animate8 infinite 1.5s;
+      animation-delay: -4s;
+       			}
+       			
+       			.set div:nth-child(9)
+       			{
+       							left: 148%;
+       						  bottom: 46%;
+     animation: animate9 infinite 1.5s;
+     animation-delay: -3s;
+       			}
+       			
+       			.set div:nth-child(10)
+       			{
+       							left: 153%;
+       							bottom: 7%;
+       							
+      animation: animate10 infinite 1.5s;
+      animation-delay: -7s;
+       			}
+       			
+       			img{
+       							
+       							width: 40px;
+       							height: 40px;
+       			}
+       			
+       			@keyframes animate1 {
+       			
+       					0%{
+       									top: 15%;
+       									opacity: 0.2;
+       					}
+       					
+       					10%{
+       											opacity: 1;
+       							}
+       					
+       					100%{
+       									top: 5%;
+       									opacity: 0;
+       					}
+       			}
+       			
+       			@keyframes animate2 {
+       							
+       							0%{
+       											bottom: 10%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											bottom: 40%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			@keyframes animate3 {
+       							
+       							0%{
+       											top: 30%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											top: 10%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			@keyframes animate4 {
+       							
+       							0%{
+       											bottom: 33%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											bottom: 57%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			
+       			@keyframes animate5 {
+       							
+       							0%{
+       											top: 30%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											top: 5%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			
+       				@keyframes animate6 {
+       							
+       							0%{
+       											bottom: 10%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											bottom: 25%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       				@keyframes animate7 {
+       							
+       							0%{
+       											top: 20%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											top: 0%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			
+       				@keyframes animate8 {
+       							
+       							0%{
+       											bottom: 27%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											bottom: 45%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			
+       				@keyframes animate9 {
+       							
+       							0%{
+       											bottom: 46%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											bottom: 60%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			
+       				@keyframes animate10 {
+       							
+       							0%{
+       											bottom: 7%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											bottom: 25%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			
+       			.div1{
+       							
+       							filter: blur(1px);
+       							position: absolute;
+       							width: 100%;
+       							height: 100%;
+       					   top: 55%;
+       							left: 98%;
+      animation: animate11 infinite 1.5s;
+      animation-delay: -2s;
+       			}
+       		  
+       		  
+       		  .div2{
+       		  				
+       		  				filter: blur(1px);
+       		  				position: absolute;
+       							width: 100%;
+       							height: 100%;
+       					   bottom: -80%;
+       							left: 40%;
+       animation: animate12 infinite 1.5s;
+       animation-delay: -4s;
+       		  }
+       			
+       			
+       			.div3{
+       							
+       							filter: blur(1px);
+       							position: absolute;
+       							width: 100%;
+       							height: 100%;
+       					   top: 16%;
+       							left: 163%;
+       animation: animate13 infinite 1.5s;
+       animation-delay: -7s;
+       			}
+       			
+       			
+       			.div4{
+       							
+       							filter: blur(1px);
+       							position: absolute;
+       							width: 100%;
+       							height: 100%;
+       					   top: 40%;
+       							left: 6%;
+       animation: animate14 infinite 1.5s;
+       animation-delay: -9s;
+       			}
+       			
+       			
+       			@keyframes animate11 {
+       							
+       							0%{
+       											top: 55%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											top: 26%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			@keyframes animate12 {
+       							
+       							0%{
+       											bottom: -80%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											bottom: -60%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			@keyframes animate13 {
+       							
+       							0%{
+       											top: 16%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											top: 0%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			@keyframes animate14 {
+       							
+       							0%{
+       											top: 40%;
+       											opacity: 0.2;
+       							}
+       							
+       							10%{
+       											opacity: 1;
+       							}
+       							
+       							100%{
+       											top: 20%;
+       											opacity: 0;
+       							}
+       			}
+       			
+       			
+       			.word1{
+       							
+       							opacity: 0;
+       							margin: 0;
+       							padding: 0;
+       							color: #ff6940;
+       							font-size: 30px;
+       							font-family: cursive;
+       							position: absolute;
+       							bottom: 40%;
+       							left: 75%;
+       							animation: word1 linear 3s;
+       							animation-delay: 3s;
+       							}       		 
+       			
+       			@keyframes word1 {
+       							
+       							0%{
+       											bottom: 30%;
+       											opacity: 1;
+       							}
+       							
+       							
+       			40%{
+       							
+       							bottom: 15%;
+       							opacity: 1;
+       			}
+       			
+       			75%{
+       							bottom: 35%;
+       							opacity: 1;
+       			}
+       			
+       			100%{
+       							opacity: 0;
+       			}
+       			
+       			      }
+       			
+       			.word2{
+       							
+       							opacity: 0;
+       							margin: 0;
+       							padding: 0;
+       							color: #5582ff;
+       							font-size: 30px;
+       							font-family: cursive;
+       							position: absolute;
+       							bottom: 40%;
+       							left: 75%;
+       							animation: word2 linear 3s;
+       					  	animation-delay: 6s;
+       							}       		 
+       			
+       			@keyframes word2 {
+       							
+       							0%{
+       											left: 75%;
+       											top: 50%;
+       											opacity: 1;
+       							}
+       							
+       							
+       			40%{
+       							
+       							left:  90%;
+       							top: 20%;
+       							opacity: 1;
+       			}
+       			
+       			85%{
+       							left: 75%;
+       							top: 0%;
+       							opacity: 1;
+       			}
+       			
+       			100%{
+       							opacity: 0;
+       			}
+       			
+       			
+       			}
+       			
+       			.word3{
+       							
+       							opacity: 0;
+       							margin: 0;
+       							padding: 0;
+       							color: #e8e587;
+       							font-size: 30px;
+       							font-family: cursive;
+       							position: absolute;
+       							left:  90%;
+       							top:20%;
+       	 animation: word3 running 3s;
+       					  	animation-delay: 9s;
+       							}       		 
+       			
+       			@keyframes word3 {
+       								
+       								0%{
+       											left: 75%;
+       											top: -5%;
+       											opacity: 1;
+       							}
+       							
+       							
+       			40%{
+       							
+       							left:  90%;
+       							top:20%;
+       							opacity: 1;
+       			}
+       			
+       			85%{
+       							left: 75%;
+       							top: 40%;
+       							opacity: 0;
+       			}
+       			
+       			
+       			100%{
+       							opacity: 0;
+       			}
+       			
+       			}
+       			
+       			
+       			.word4{
+       							
+       							opacity: 0;
+       							margin: 0;
+       							padding: 0;
+       							color: #ff001f;
+       							font-size: 30px;
+       							font-family: cursive;
+       							position: absolute;
+       							top: 28%;
+       							left: 90%;
+       	 animation: word4 running 3.3s;
+       					  	animation-delay: 11.5s;
+       							}       		 
+       			
+       			@keyframes word4 {
+       			
+       								
+       								0%{
+       												opacity: 0;
+       								}
+       								
+       								25%{
+       											
+       											font-size: 10px;
+       											opacity: 1;
+       							}
+       							
+       							50%{
+       											
+       											font-size: 45px;
+       											opacity: 1;
+       							}
+       			
+       			80%{
+       						 
+       						 font-size: 30px;
+       						 opacity: 1;
+       			}
+       			
+       			
+       			100%{
+       							
+       							opacity: 0;
+       			}
+       			
+       			}
+
+				</style>
+				
+</head>
+<body>
+				
+				<section>
+								
+							<div class="word">
+<a class="word1">SOMETIMES ALL I THINK ABOUT IS YOU😘</a> 
+							
+<a class="word2">LATE NIGHTS ON THE MIDDLE OF JUNE❤</a>
+
+<a class="word3">HEAT WAVES BEEN FAKIN' ME OUT😊</a>
+
+<a class="word4">CAN'T MAKE YOU HAPPIER NOW🥰</a>
+							
+							</div>
+								
+								
+								<div class="set">
+												
+	      <div><img src="red.png"></div>
+					<div><img src="blue.png"></div>
+					<div><img src="white.png"></div>
+					<div><img src="green.png"></div>
+					<div><img src="yellow.png"></div>
+					<div><img src="red.png"></div>
+					<div><img src="blue.png"></div>
+					<div><img src="white.png"></div>
+					<div><img src="green.png"></div>
+					<div><img src="yellow.png"></div>
+					
+					</div>
+					
+												
+ <div class="div1"><img src="pink.png"></div>	
+	<div class="div2"><img src="pink.png"></div>	
+ <div class="div3"><img src="pink.png"></div>	
+ <div class="div4"><img src="pink.png"></div>	
+								
+				</section>
+				
+				
+				<script type="text/javascript">
+										
+								
+				</script>
+				
+</body>
+</html>
